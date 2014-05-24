@@ -1,15 +1,15 @@
 The current working directory is "./UCI HAR Dataset"
 
-this script assumes the data is in 8 files called 
-*"X_train.txt"
-*"y_train.txt" 
-*"subject_train"
-*"X_test.txt"
-*"y_test.txt"
-*"subject_test"
-*"features.txt"
-*"activity_labels.txt"
-in the current working directory
+this script assumes the data is in 8 files called the following in the current working directory
+* "X_train.txt"
+* "y_train.txt" 
+* "subject_train"
+* "X_test.txt"
+* "y_test.txt"
+* "subject_test"
+* "features.txt"
+* "activity_labels.txt"
+
 
 
 ignore folders called "Inertial Signals"
