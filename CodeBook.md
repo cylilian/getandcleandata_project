@@ -1,71 +1,70 @@
-x
-1 <HTML><BODY>
-2 <p>  1 activity character walking;walkingupstairs;walkingdownstairs;sitting;standing;laying  </p>
-3 <p>  2 subject integer Subject id numbers  </p>
-4 <p>  3 tbodyaccmeanx numeric mean of body acceleration raw signals.time domain.x coordinate  </p>
-5 <p>  4 tbodyaccmeany numeric mean of body acceleration raw signals.time domain.y coordinate  </p>
-6 <p>  5 tbodyaccmeanz numeric mean of body acceleration raw signals.time domain.z coordinate  </p>
-7 <p>  6 tbodyaccstdx numeric std of body acceleration raw signals.time domain.x coordinate  </p>
-8 <p>  7 tbodyaccstdy numeric std of body acceleration raw signals.time domain.y coordinate  </p>
-9 <p>  8 tbodyaccstdz numeric std of body acceleration raw signals.time domain.z coordinate  </p>
-10 <p>  9 tgravityaccmeanx numeric mean of gravity acceleration raw signals.time domain.x coordinate  </p>
-11 <p>  10 tgravityaccmeany numeric mean of gravity acceleration raw signals.time domain.y coordinate  </p>
-12 <p>  11 tgravityaccmeanz numeric mean of gravity acceleration raw signals.time domain.z coordinate  </p>
-13 <p>  12 tgravityaccstdx numeric std of gravity acceleration raw signals.time domain.x coordinate  </p>
-14 <p>  13 tgravityaccstdy numeric std of gravity acceleration raw signals.time domain.y coordinate  </p>
-15 <p>  14 tgravityaccstdz numeric std of gravity acceleration raw signals.time domain.z coordinate  </p>
-16 <p>  15 tbodyaccjerkmeanx numeric mean of body acceleration jerk signals.time domain.x coordinate  </p>
-17 <p>  16 tbodyaccjerkmeany numeric mean of body acceleration jerk signals.time domain.y coordinate  </p>
-18 <p>  17 tbodyaccjerkmeanz numeric mean of body acceleration jerk signals.time domain.z coordinate  </p>
-19 <p>  18 tbodyaccjerkstdx numeric std of body acceleration jerk signals.time domain.x coordinate  </p>
-20 <p>  19 tbodyaccjerkstdy numeric std of body acceleration jerk signals.time domain.y coordinate  </p>
-21 <p>  20 tbodyaccjerkstdz numeric std of body acceleration jerk signals.time domain.z coordinate  </p>
-22 <p>  21 tbodygyromeanx numeric mean of body gyro raw signals.time domain.x coordinate  </p>
-23 <p>  22 tbodygyromeany numeric mean of body gyro raw signals.time domain.y coordinate  </p>
-24 <p>  23 tbodygyromeanz numeric mean of body gyro raw signals.time domain.z coordinate  </p>
-25 <p>  24 tbodygyrostdx numeric std of body gyro raw signals.time domain.x coordinate  </p>
-26 <p>  25 tbodygyrostdy numeric std of body gyro raw signals.time domain.y coordinate  </p>
-27 <p>  26 tbodygyrostdz numeric std of body gyro raw signals.time domain.z coordinate  </p>
-28 <p>  27 tbodygyrojerkmeanx numeric mean of body gyro jerk signals.time domain.x coordinate  </p>
-29 <p>  28 tbodygyrojerkmeany numeric mean of body gyro jerk signals.time domain.y coordinate  </p>
-30 <p>  29 tbodygyrojerkmeanz numeric mean of body gyro jerk signals.time domain.z coordinate  </p>
-31 <p>  30 tbodygyrojerkstdx numeric std of body gyro jerk signals.time domain.x coordinate  </p>
-32 <p>  31 tbodygyrojerkstdy numeric std of body gyro jerk signals.time domain.y coordinate  </p>
-33 <p>  32 tbodygyrojerkstdz numeric std of body gyro jerk signals.time domain.z coordinate  </p>
-34 <p>  33 tbodyaccmagmean numeric mean of body acceleration raw signals' magnitude.time domain  </p>
-35 <p>  34 tbodyaccmagstd numeric std of body acceleration raw signals' magnitude.time domain  </p>
-36 <p>  35 tgravityaccmagmean numeric mean of gravity acceleration raw signals' magnitude.time domain  </p>
-37 <p>  36 tgravityaccmagstd numeric std of gravity acceleration raw signals' magnitude.time domain  </p>
-38 <p>  37 tbodyaccjerkmagmean numeric mean of body acceleration jerk signals' magnitude.time domain  </p>
-39 <p>  38 tbodyaccjerkmagstd numeric std of body acceleration jerk signals' magnitude.time domain  </p>
-40 <p>  39 tbodygyromagmean numeric mean of body gyro raw signals' magnitude.time domain  </p>
-41 <p>  40 tbodygyromagstd numeric std of body gyro raw signals' magnitude.time domain  </p>
-42 <p>  41 tbodygyrojerkmagmean numeric mean of body gyro jerk signals' magnitude.time domain  </p>
-43 <p>  42 tbodygyrojerkmagstd numeric std of body gyro jerk signals' magnitude.time domain  </p>
-44 <p>  43 fbodyaccmeanx numeric mean of body acceleration raw signals.requency domain.x coordinate  </p>
-45 <p>  44 fbodyaccmeany numeric mean of body acceleration raw signals.frequency domain.y coordinate  </p>
-46 <p>  45 fbodyaccmeanz numeric mean of body acceleration raw signals.frequency domain.z coordinate  </p>
-47 <p>  46 fbodyaccstdx numeric std of body acceleration raw signals.frequency domain.x coordinate  </p>
-48 <p>  47 fbodyaccstdy numeric std of body acceleration raw signals.frequency domain.y coordinate  </p>
-49 <p>  48 fbodyaccstdz numeric std of body acceleration raw signals.frequency domain.z coordinate  </p>
-50 <p>  49 fbodyaccjerkmeanx numeric mean of body acceleration jerk signals.frequency domain.x coordinate  </p>
-51 <p>  50 fbodyaccjerkmeany numeric mean of body acceleration jerk signals.frequency domain.y coordinate  </p>
-52 <p>  51 fbodyaccjerkmeanz numeric mean of body acceleration jerk signals.frequency domain.z coordinate  </p>
-53 <p>  52 fbodyaccjerkstdx numeric std of body acceleration jerk signals.frequency domain.x coordinate  </p>
-54 <p>  53 fbodyaccjerkstdy numeric std of body acceleration jerk signals.frequency domain.y coordinate  </p>
-55 <p>  54 fbodyaccjerkstdz numeric std of body acceleration jerk signals.frequency domain.z coordinate  </p>
-56 <p>  55 fbodygyromeanx numeric mean of body gyro raw signals.frequency domain.x coordinate  </p>
-57 <p>  56 fbodygyromeany numeric mean of body gyro raw signals.frequency domain.y coordinate  </p>
-58 <p>  57 fbodygyromeanz numeric mean of body gyro raw signals.frequency domain.z coordinate  </p>
-59 <p>  58 fbodygyrostdx numeric std of body gyro raw signals.frequency domain.x coordinate  </p>
-60 <p>  59 fbodygyrostdy numeric std of body gyro raw signals.frequency domain.y coordinate  </p>
-61 <p>  60 fbodygyrostdz numeric std of body gyro raw signals.frequency domain.z coordinate  </p>
-62 <p>  61 fbodyaccmagmean numeric mean of body acceleration raw signals' magnitude.frequency domain  </p>
-63 <p>  62 fbodyaccmagstd numeric std of body acceleration raw signals' magnitude.frequency domain  </p>
-64 <p>  63 fbodyaccjerkmagmean numeric mean of body acceleration jerk signals' magnitude.frequency domain  </p>
-65 <p>  64 fbodyaccjerkmagstd numeric std of body acceleration jerk signals' magnitude.frequency domain  </p>
-66 <p>  65 fbodygyromagmean numeric mean of body gyro raw signals' magnitude.frequency domain  </p>
-67 <p>  66 fbodygyromagstd numeric std of body gyro raw signals' magnitude.frequency domain  </p>
-68 <p>  67 fbodygyrojerkmagmean numeric mean of body gyro jerk signals' magnitude.frequency domain  </p>
-69 <p>  68 fbodygyrojerkmagstd numeric std of body gyro jerk signals' magnitude.frequency domain  </p>
-70 </BODY></HTML
+| column | names                | class     | description                                                          |
+|--------|----------------------|-----------|----------------------------------------------------------------------|
+| 1      | activity             | character | walking;walkingupstairs;walkingdownstairs;sitting;standing;laying    |
+| 2      | subject              | integer   | Subject id numbers                                                   |
+| 3      | tbodyaccmeanx        | numeric   | mean of body acceleration raw signals.time domain.x coordinate       |
+| 4      | tbodyaccmeany        | numeric   | mean of body acceleration raw signals.time domain.y coordinate       |
+| 5      | tbodyaccmeanz        | numeric   | mean of body acceleration raw signals.time domain.z coordinate       |
+| 6      | tbodyaccstdx         | numeric   | std of body acceleration raw signals.time domain.x coordinate        |
+| 7      | tbodyaccstdy         | numeric   | std of body acceleration raw signals.time domain.y coordinate        |
+| 8      | tbodyaccstdz         | numeric   | std of body acceleration raw signals.time domain.z coordinate        |
+| 9      | tgravityaccmeanx     | numeric   | mean of gravity acceleration raw signals.time domain.x coordinate    |
+| 10     | tgravityaccmeany     | numeric   | mean of gravity acceleration raw signals.time domain.y coordinate    |
+| 11     | tgravityaccmeanz     | numeric   | mean of gravity acceleration raw signals.time domain.z coordinate    |
+| 12     | tgravityaccstdx      | numeric   | std of gravity acceleration raw signals.time domain.x coordinate     |
+| 13     | tgravityaccstdy      | numeric   | std of gravity acceleration raw signals.time domain.y coordinate     |
+| 14     | tgravityaccstdz      | numeric   | std of gravity acceleration raw signals.time domain.z coordinate     |
+| 15     | tbodyaccjerkmeanx    | numeric   | mean of body acceleration jerk signals.time domain.x coordinate      |
+| 16     | tbodyaccjerkmeany    | numeric   | mean of body acceleration jerk signals.time domain.y coordinate      |
+| 17     | tbodyaccjerkmeanz    | numeric   | mean of body acceleration jerk signals.time domain.z coordinate      |
+| 18     | tbodyaccjerkstdx     | numeric   | std of body acceleration jerk signals.time domain.x coordinate       |
+| 19     | tbodyaccjerkstdy     | numeric   | std of body acceleration jerk signals.time domain.y coordinate       |
+| 20     | tbodyaccjerkstdz     | numeric   | std of body acceleration jerk signals.time domain.z coordinate       |
+| 21     | tbodygyromeanx       | numeric   | mean of body gyro raw signals.time domain.x coordinate               |
+| 22     | tbodygyromeany       | numeric   | mean of body gyro raw signals.time domain.y coordinate               |
+| 23     | tbodygyromeanz       | numeric   | mean of body gyro raw signals.time domain.z coordinate               |
+| 24     | tbodygyrostdx        | numeric   | std of body gyro raw signals.time domain.x coordinate                |
+| 25     | tbodygyrostdy        | numeric   | std of body gyro raw signals.time domain.y coordinate                |
+| 26     | tbodygyrostdz        | numeric   | std of body gyro raw signals.time domain.z coordinate                |
+| 27     | tbodygyrojerkmeanx   | numeric   | mean of body gyro jerk signals.time domain.x coordinate              |
+| 28     | tbodygyrojerkmeany   | numeric   | mean of body gyro jerk signals.time domain.y coordinate              |
+| 29     | tbodygyrojerkmeanz   | numeric   | mean of body gyro jerk signals.time domain.z coordinate              |
+| 30     | tbodygyrojerkstdx    | numeric   | std of body gyro jerk signals.time domain.x coordinate               |
+| 31     | tbodygyrojerkstdy    | numeric   | std of body gyro jerk signals.time domain.y coordinate               |
+| 32     | tbodygyrojerkstdz    | numeric   | std of body gyro jerk signals.time domain.z coordinate               |
+| 33     | tbodyaccmagmean      | numeric   | mean of body acceleration raw signals' magnitude.time domain         |
+| 34     | tbodyaccmagstd       | numeric   | std of body acceleration raw signals' magnitude.time domain          |
+| 35     | tgravityaccmagmean   | numeric   | mean of gravity acceleration raw signals' magnitude.time domain      |
+| 36     | tgravityaccmagstd    | numeric   | std of gravity acceleration raw signals' magnitude.time domain       |
+| 37     | tbodyaccjerkmagmean  | numeric   | mean of body acceleration jerk signals' magnitude.time domain        |
+| 38     | tbodyaccjerkmagstd   | numeric   | std of body acceleration jerk signals' magnitude.time domain         |
+| 39     | tbodygyromagmean     | numeric   | mean of body gyro raw signals' magnitude.time domain                 |
+| 40     | tbodygyromagstd      | numeric   | std of body gyro raw signals' magnitude.time domain                  |
+| 41     | tbodygyrojerkmagmean | numeric   | mean of body gyro jerk signals' magnitude.time domain                |
+| 42     | tbodygyrojerkmagstd  | numeric   | std of body gyro jerk signals' magnitude.time domain                 |
+| 43     | fbodyaccmeanx        | numeric   | mean of body acceleration raw signals.requency domain.x coordinate   |
+| 44     | fbodyaccmeany        | numeric   | mean of body acceleration raw signals.frequency domain.y coordinate  |
+| 45     | fbodyaccmeanz        | numeric   | mean of body acceleration raw signals.frequency domain.z coordinate  |
+| 46     | fbodyaccstdx         | numeric   | std of body acceleration raw signals.frequency domain.x coordinate   |
+| 47     | fbodyaccstdy         | numeric   | std of body acceleration raw signals.frequency domain.y coordinate   |
+| 48     | fbodyaccstdz         | numeric   | std of body acceleration raw signals.frequency domain.z coordinate   |
+| 49     | fbodyaccjerkmeanx    | numeric   | mean of body acceleration jerk signals.frequency domain.x coordinate |
+| 50     | fbodyaccjerkmeany    | numeric   | mean of body acceleration jerk signals.frequency domain.y coordinate |
+| 51     | fbodyaccjerkmeanz    | numeric   | mean of body acceleration jerk signals.frequency domain.z coordinate |
+| 52     | fbodyaccjerkstdx     | numeric   | std of body acceleration jerk signals.frequency domain.x coordinate  |
+| 53     | fbodyaccjerkstdy     | numeric   | std of body acceleration jerk signals.frequency domain.y coordinate  |
+| 54     | fbodyaccjerkstdz     | numeric   | std of body acceleration jerk signals.frequency domain.z coordinate  |
+| 55     | fbodygyromeanx       | numeric   | mean of body gyro raw signals.frequency domain.x coordinate          |
+| 56     | fbodygyromeany       | numeric   | mean of body gyro raw signals.frequency domain.y coordinate          |
+| 57     | fbodygyromeanz       | numeric   | mean of body gyro raw signals.frequency domain.z coordinate          |
+| 58     | fbodygyrostdx        | numeric   | std of body gyro raw signals.frequency domain.x coordinate           |
+| 59     | fbodygyrostdy        | numeric   | std of body gyro raw signals.frequency domain.y coordinate           |
+| 60     | fbodygyrostdz        | numeric   | std of body gyro raw signals.frequency domain.z coordinate           |
+| 61     | fbodyaccmagmean      | numeric   | mean of body acceleration raw signals' magnitude.frequency domain    |
+| 62     | fbodyaccmagstd       | numeric   | std of body acceleration raw signals' magnitude.frequency domain     |
+| 63     | fbodyaccjerkmagmean  | numeric   | mean of body acceleration jerk signals' magnitude.frequency domain   |
+| 64     | fbodyaccjerkmagstd   | numeric   | std of body acceleration jerk signals' magnitude.frequency domain    |
+| 65     | fbodygyromagmean     | numeric   | mean of body gyro raw signals' magnitude.frequency domain            |
+| 66     | fbodygyromagstd      | numeric   | std of body gyro raw signals' magnitude.frequency domain             |
+| 67     | fbodygyrojerkmagmean | numeric   | mean of body gyro jerk signals' magnitude.frequency domain           |
+| 68     | fbodygyrojerkmagstd  | numeric   | std of body gyro jerk signals' magnitude.frequency domain            |
