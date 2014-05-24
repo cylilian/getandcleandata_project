@@ -27,10 +27,10 @@ So step1 is to merge the training and the tests sets for values, activities and 
 ##Step2
 file "features.txt" stores names corresponding to 561 variables.
 in order to choose mean and std measurements only, this script
-1. use function "tolower" to turn all letters into lowercases
-2. use function "grep" to choose names including "mean" or "std", 79 variables are selected
-3. use function "grep" to remove names including "meanfreq", 6 variables are removed.
-4. use function "grep" to remove names including “angle”. It has mean in the name but it isn't a mean itself. 7 variables are removed
+* use function "tolower" to turn all letters into lowercases
+* use function "grep" to choose names including "mean" or "std", 79 variables are selected
+* use function "grep" to remove names including "meanfreq", 6 variables are removed.
+* use function "grep" to remove names including “angle”. It has mean in the name but it isn't a mean itself. 7 variables are removed
 
 So the dataset has reduced to 66 variables
 
