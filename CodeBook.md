@@ -1,70 +1,71 @@
-<HTML><BODY>
-<p>  1  is in the same place as  activity  </p>
-<p>  2  is in the same place as  subject  </p>
-<p>  3  is in the same place as  tbodyaccmeanx  </p>
-<p>  4  is in the same place as  tbodyaccmeany  </p>
-<p>  5  is in the same place as  tbodyaccmeanz  </p>
-<p>  6  is in the same place as  tbodyaccstdx  </p>
-<p>  7  is in the same place as  tbodyaccstdy  </p>
-<p>  8  is in the same place as  tbodyaccstdz  </p>
-<p>  9  is in the same place as  tgravityaccmeanx  </p>
-<p>  10  is in the same place as  tgravityaccmeany  </p>
-<p>  11  is in the same place as  tgravityaccmeanz  </p>
-<p>  12  is in the same place as  tgravityaccstdx  </p>
-<p>  13  is in the same place as  tgravityaccstdy  </p>
-<p>  14  is in the same place as  tgravityaccstdz  </p>
-<p>  15  is in the same place as  tbodyaccjerkmeanx  </p>
-<p>  16  is in the same place as  tbodyaccjerkmeany  </p>
-<p>  17  is in the same place as  tbodyaccjerkmeanz  </p>
-<p>  18  is in the same place as  tbodyaccjerkstdx  </p>
-<p>  19  is in the same place as  tbodyaccjerkstdy  </p>
-<p>  20  is in the same place as  tbodyaccjerkstdz  </p>
-<p>  21  is in the same place as  tbodygyromeanx  </p>
-<p>  22  is in the same place as  tbodygyromeany  </p>
-<p>  23  is in the same place as  tbodygyromeanz  </p>
-<p>  24  is in the same place as  tbodygyrostdx  </p>
-<p>  25  is in the same place as  tbodygyrostdy  </p>
-<p>  26  is in the same place as  tbodygyrostdz  </p>
-<p>  27  is in the same place as  tbodygyrojerkmeanx  </p>
-<p>  28  is in the same place as  tbodygyrojerkmeany  </p>
-<p>  29  is in the same place as  tbodygyrojerkmeanz  </p>
-<p>  30  is in the same place as  tbodygyrojerkstdx  </p>
-<p>  31  is in the same place as  tbodygyrojerkstdy  </p>
-<p>  32  is in the same place as  tbodygyrojerkstdz  </p>
-<p>  33  is in the same place as  tbodyaccmagmean  </p>
-<p>  34  is in the same place as  tbodyaccmagstd  </p>
-<p>  35  is in the same place as  tgravityaccmagmean  </p>
-<p>  36  is in the same place as  tgravityaccmagstd  </p>
-<p>  37  is in the same place as  tbodyaccjerkmagmean  </p>
-<p>  38  is in the same place as  tbodyaccjerkmagstd  </p>
-<p>  39  is in the same place as  tbodygyromagmean  </p>
-<p>  40  is in the same place as  tbodygyromagstd  </p>
-<p>  41  is in the same place as  tbodygyrojerkmagmean  </p>
-<p>  42  is in the same place as  tbodygyrojerkmagstd  </p>
-<p>  43  is in the same place as  fbodyaccmeanx  </p>
-<p>  44  is in the same place as  fbodyaccmeany  </p>
-<p>  45  is in the same place as  fbodyaccmeanz  </p>
-<p>  46  is in the same place as  fbodyaccstdx  </p>
-<p>  47  is in the same place as  fbodyaccstdy  </p>
-<p>  48  is in the same place as  fbodyaccstdz  </p>
-<p>  49  is in the same place as  fbodyaccjerkmeanx  </p>
-<p>  50  is in the same place as  fbodyaccjerkmeany  </p>
-<p>  51  is in the same place as  fbodyaccjerkmeanz  </p>
-<p>  52  is in the same place as  fbodyaccjerkstdx  </p>
-<p>  53  is in the same place as  fbodyaccjerkstdy  </p>
-<p>  54  is in the same place as  fbodyaccjerkstdz  </p>
-<p>  55  is in the same place as  fbodygyromeanx  </p>
-<p>  56  is in the same place as  fbodygyromeany  </p>
-<p>  57  is in the same place as  fbodygyromeanz  </p>
-<p>  58  is in the same place as  fbodygyrostdx  </p>
-<p>  59  is in the same place as  fbodygyrostdy  </p>
-<p>  60  is in the same place as  fbodygyrostdz  </p>
-<p>  61  is in the same place as  fbodyaccmagmean  </p>
-<p>  62  is in the same place as  fbodyaccmagstd  </p>
-<p>  63  is in the same place as  fbodyaccjerkmagmean  </p>
-<p>  64  is in the same place as  fbodyaccjerkmagstd  </p>
-<p>  65  is in the same place as  fbodygyromagmean  </p>
-<p>  66  is in the same place as  fbodygyromagstd  </p>
-<p>  67  is in the same place as  fbodygyrojerkmagmean  </p>
-<p>  68  is in the same place as  fbodygyrojerkmagstd  </p>
-</BODY></HTML
+x
+1 <HTML><BODY>
+2 <p>  1 activity character walking;walkingupstairs;walkingdownstairs;sitting;standing;laying  </p>
+3 <p>  2 subject integer Subject id numbers  </p>
+4 <p>  3 tbodyaccmeanx numeric mean of body acceleration raw signals.time domain.x coordinate  </p>
+5 <p>  4 tbodyaccmeany numeric mean of body acceleration raw signals.time domain.y coordinate  </p>
+6 <p>  5 tbodyaccmeanz numeric mean of body acceleration raw signals.time domain.z coordinate  </p>
+7 <p>  6 tbodyaccstdx numeric std of body acceleration raw signals.time domain.x coordinate  </p>
+8 <p>  7 tbodyaccstdy numeric std of body acceleration raw signals.time domain.y coordinate  </p>
+9 <p>  8 tbodyaccstdz numeric std of body acceleration raw signals.time domain.z coordinate  </p>
+10 <p>  9 tgravityaccmeanx numeric mean of gravity acceleration raw signals.time domain.x coordinate  </p>
+11 <p>  10 tgravityaccmeany numeric mean of gravity acceleration raw signals.time domain.y coordinate  </p>
+12 <p>  11 tgravityaccmeanz numeric mean of gravity acceleration raw signals.time domain.z coordinate  </p>
+13 <p>  12 tgravityaccstdx numeric std of gravity acceleration raw signals.time domain.x coordinate  </p>
+14 <p>  13 tgravityaccstdy numeric std of gravity acceleration raw signals.time domain.y coordinate  </p>
+15 <p>  14 tgravityaccstdz numeric std of gravity acceleration raw signals.time domain.z coordinate  </p>
+16 <p>  15 tbodyaccjerkmeanx numeric mean of body acceleration jerk signals.time domain.x coordinate  </p>
+17 <p>  16 tbodyaccjerkmeany numeric mean of body acceleration jerk signals.time domain.y coordinate  </p>
+18 <p>  17 tbodyaccjerkmeanz numeric mean of body acceleration jerk signals.time domain.z coordinate  </p>
+19 <p>  18 tbodyaccjerkstdx numeric std of body acceleration jerk signals.time domain.x coordinate  </p>
+20 <p>  19 tbodyaccjerkstdy numeric std of body acceleration jerk signals.time domain.y coordinate  </p>
+21 <p>  20 tbodyaccjerkstdz numeric std of body acceleration jerk signals.time domain.z coordinate  </p>
+22 <p>  21 tbodygyromeanx numeric mean of body gyro raw signals.time domain.x coordinate  </p>
+23 <p>  22 tbodygyromeany numeric mean of body gyro raw signals.time domain.y coordinate  </p>
+24 <p>  23 tbodygyromeanz numeric mean of body gyro raw signals.time domain.z coordinate  </p>
+25 <p>  24 tbodygyrostdx numeric std of body gyro raw signals.time domain.x coordinate  </p>
+26 <p>  25 tbodygyrostdy numeric std of body gyro raw signals.time domain.y coordinate  </p>
+27 <p>  26 tbodygyrostdz numeric std of body gyro raw signals.time domain.z coordinate  </p>
+28 <p>  27 tbodygyrojerkmeanx numeric mean of body gyro jerk signals.time domain.x coordinate  </p>
+29 <p>  28 tbodygyrojerkmeany numeric mean of body gyro jerk signals.time domain.y coordinate  </p>
+30 <p>  29 tbodygyrojerkmeanz numeric mean of body gyro jerk signals.time domain.z coordinate  </p>
+31 <p>  30 tbodygyrojerkstdx numeric std of body gyro jerk signals.time domain.x coordinate  </p>
+32 <p>  31 tbodygyrojerkstdy numeric std of body gyro jerk signals.time domain.y coordinate  </p>
+33 <p>  32 tbodygyrojerkstdz numeric std of body gyro jerk signals.time domain.z coordinate  </p>
+34 <p>  33 tbodyaccmagmean numeric mean of body acceleration raw signals' magnitude.time domain  </p>
+35 <p>  34 tbodyaccmagstd numeric std of body acceleration raw signals' magnitude.time domain  </p>
+36 <p>  35 tgravityaccmagmean numeric mean of gravity acceleration raw signals' magnitude.time domain  </p>
+37 <p>  36 tgravityaccmagstd numeric std of gravity acceleration raw signals' magnitude.time domain  </p>
+38 <p>  37 tbodyaccjerkmagmean numeric mean of body acceleration jerk signals' magnitude.time domain  </p>
+39 <p>  38 tbodyaccjerkmagstd numeric std of body acceleration jerk signals' magnitude.time domain  </p>
+40 <p>  39 tbodygyromagmean numeric mean of body gyro raw signals' magnitude.time domain  </p>
+41 <p>  40 tbodygyromagstd numeric std of body gyro raw signals' magnitude.time domain  </p>
+42 <p>  41 tbodygyrojerkmagmean numeric mean of body gyro jerk signals' magnitude.time domain  </p>
+43 <p>  42 tbodygyrojerkmagstd numeric std of body gyro jerk signals' magnitude.time domain  </p>
+44 <p>  43 fbodyaccmeanx numeric mean of body acceleration raw signals.requency domain.x coordinate  </p>
+45 <p>  44 fbodyaccmeany numeric mean of body acceleration raw signals.frequency domain.y coordinate  </p>
+46 <p>  45 fbodyaccmeanz numeric mean of body acceleration raw signals.frequency domain.z coordinate  </p>
+47 <p>  46 fbodyaccstdx numeric std of body acceleration raw signals.frequency domain.x coordinate  </p>
+48 <p>  47 fbodyaccstdy numeric std of body acceleration raw signals.frequency domain.y coordinate  </p>
+49 <p>  48 fbodyaccstdz numeric std of body acceleration raw signals.frequency domain.z coordinate  </p>
+50 <p>  49 fbodyaccjerkmeanx numeric mean of body acceleration jerk signals.frequency domain.x coordinate  </p>
+51 <p>  50 fbodyaccjerkmeany numeric mean of body acceleration jerk signals.frequency domain.y coordinate  </p>
+52 <p>  51 fbodyaccjerkmeanz numeric mean of body acceleration jerk signals.frequency domain.z coordinate  </p>
+53 <p>  52 fbodyaccjerkstdx numeric std of body acceleration jerk signals.frequency domain.x coordinate  </p>
+54 <p>  53 fbodyaccjerkstdy numeric std of body acceleration jerk signals.frequency domain.y coordinate  </p>
+55 <p>  54 fbodyaccjerkstdz numeric std of body acceleration jerk signals.frequency domain.z coordinate  </p>
+56 <p>  55 fbodygyromeanx numeric mean of body gyro raw signals.frequency domain.x coordinate  </p>
+57 <p>  56 fbodygyromeany numeric mean of body gyro raw signals.frequency domain.y coordinate  </p>
+58 <p>  57 fbodygyromeanz numeric mean of body gyro raw signals.frequency domain.z coordinate  </p>
+59 <p>  58 fbodygyrostdx numeric std of body gyro raw signals.frequency domain.x coordinate  </p>
+60 <p>  59 fbodygyrostdy numeric std of body gyro raw signals.frequency domain.y coordinate  </p>
+61 <p>  60 fbodygyrostdz numeric std of body gyro raw signals.frequency domain.z coordinate  </p>
+62 <p>  61 fbodyaccmagmean numeric mean of body acceleration raw signals' magnitude.frequency domain  </p>
+63 <p>  62 fbodyaccmagstd numeric std of body acceleration raw signals' magnitude.frequency domain  </p>
+64 <p>  63 fbodyaccjerkmagmean numeric mean of body acceleration jerk signals' magnitude.frequency domain  </p>
+65 <p>  64 fbodyaccjerkmagstd numeric std of body acceleration jerk signals' magnitude.frequency domain  </p>
+66 <p>  65 fbodygyromagmean numeric mean of body gyro raw signals' magnitude.frequency domain  </p>
+67 <p>  66 fbodygyromagstd numeric std of body gyro raw signals' magnitude.frequency domain  </p>
+68 <p>  67 fbodygyrojerkmagmean numeric mean of body gyro jerk signals' magnitude.frequency domain  </p>
+69 <p>  68 fbodygyrojerkmagstd numeric std of body gyro jerk signals' magnitude.frequency domain  </p>
+70 </BODY></HTML

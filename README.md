@@ -1,4 +1,4 @@
-datasciencecoursera
+﻿datasciencecoursera
 ===================
 The current working directory is "./UCI HAR Dataset"
 
@@ -27,7 +27,7 @@ So step1 is to merge the training and the tests sets for values, activities and 
 ##Step2
 file "features.txt" stores names corresponding to 561 variables.
 in order to choose mean and std measurements only, this script
-* use function "tolower" to turn all letters into lowercases
+* use function "tolower" to convert all letters to lowercases
 * use function "grep" to choose names including "mean" or "std", 79 variables are selected
 * use function "grep" to remove names including "meanfreq", 6 variables are removed.
 * use function "grep" to remove names including “angle”. It has mean in the name but it isn't a mean itself. 7 variables are removed
@@ -37,7 +37,11 @@ So the dataset has reduced to 66 variables
 
 ##Step3
 file "activity_labels.txt" contains descriptive activity names
-So use these names to replace the numeric activities from 1 to 6 in the data set by a for loop
+So use these names to replace the numeric activities from 1 to 6 in the data set by 
+* use function "tolower" to convert all leteters to lowercases
+* use function "sub" to remove underscore in "walking_upstairs" and "walking_downstairs"
+* use a for loop
+
 
 ##Step4
 use function "gsub" to remove paranthesis and hyphen in variable names

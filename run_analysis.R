@@ -36,6 +36,7 @@ colnames3=colnames2[-v_select3]
 activity_labels=read.table("./activity_labels.txt")
 activity_labels=as.character(activity_labels[,2])
 activity_labels=tolower(activity_labels)
+activity_labels=sub("_","",activity_labels,)
 
 for (i in 1 : 6){
 temp=NULL
@@ -70,3 +71,8 @@ test_data2=read.csv(destfile2,header=FALSE)
 listOfVariables <- data.frame(names(mean1))
 write.csv(listOfVariables,"listOfVariables.csv")
 
+df=read.csv("listOfVariables.csv")
+#now making .md file
+lines <- paste("<p> ",df$column,df$names, df$class, df$description," </p>")
+ocontents = c("<HTML><BODY>",lines,"</BODY></HTML")
+write.table(ocontents, file="CodeBook1.md", quote = FALSE, col.names=TRUE, row.names=TRUE)
