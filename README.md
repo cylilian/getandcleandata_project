@@ -1,19 +1,17 @@
 ﻿get and clean data course project
 ===================
 ##before step1
-###This script assumes "UCI HAR Dataset" folder is under current working directory
-
-###This script assumes the data is in 8 files called 
-* "X_train.txt" **under folder "UCI HAR Dataset/train"**
-* "y_train.txt" **under folder "UCI HAR Dataset/train"**
-* "subject_train" **under folder "UCI HAR Dataset/train"**
-* "X_test.txt" **under folder "UCI HAR Dataset/test"**
-* "y_test.txt" **under folder "UCI HAR Dataset/test"**
-* "subject_test" **under folder "UCI HAR Dataset/test"**
-* "features.txt" **under folder "UCI HAR Dataset"**
-* "activity_labels.txt" **under folder "UCI HAR Dataset"**
-
-###This script ignores folders called "Inertial Signals"
+This script assumes "UCI HAR Dataset" folder is under current working directory
+This script ignores folders called "Inertial Signals"
+This script assumes the data is in 8 files called 
+* "X_train.txt" _under folder "UCI HAR Dataset/train"_
+* "y_train.txt" _under folder "UCI HAR Dataset/train"_
+* "subject_train" _under folder "UCI HAR Dataset/train"_
+* "X_test.txt" _under folder "UCI HAR Dataset/test"_
+* "y_test.txt" _under folder "UCI HAR Dataset/test"**
+* "subject_test" _under folder "UCI HAR Dataset/test"_
+* "features.txt" _under folder "UCI HAR Dataset"_
+* "activity_labels.txt" _under folder "UCI HAR Dataset"_
 
 
 ##Step1
@@ -33,7 +31,6 @@ in order to choose mean and std measurements only, this script
 
 So the dataset has reduced to 66 variables
 
-
 ##Step3
 file "activity_labels.txt" contains descriptive activity names
 So use these names to replace the numeric activities from 1 to 6 in the data set by 
@@ -41,11 +38,9 @@ So use these names to replace the numeric activities from 1 to 6 in the data set
 * use function "sub" to remove underscore in "walking_upstairs" and "walking_downstairs"
 * use a for loop
 
-
 ##Step4
 * use function "gsub" to remove paranthesis and hyphen in variable names
 * use function "sub" to remove duplicate "body" from some variable names
-
 
 ##Step5
 * load package "reshape2"
