@@ -2,6 +2,7 @@
 ===================
 ##before step1
 This script assumes "UCI HAR Dataset" folder is under current working directory.
+Otherwise, it will will unzip a .zip file called "getdata_projectfiles_UCI HAR Dataset.zip" to create "UCI HAR Dataset" folder.
 
 This script ignores folders called "UCI HAR Dataset/train/Inertial Signals" and "UCI HAR Dataset/test/Inertial Signals".
 
