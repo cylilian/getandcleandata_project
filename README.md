@@ -1,8 +1,10 @@
 ﻿get and clean data course project
 ===================
 ##before step1
-This script assumes "UCI HAR Dataset" folder is under current working directory
-This script ignores folders called "Inertial Signals"
+This script assumes "UCI HAR Dataset" folder is under current working directory.
+
+This script ignores folders called "Inertial Signals".
+
 This script assumes the data is in 8 files called 
 * "X_train.txt" _under folder "UCI HAR Dataset/train"_
 * "y_train.txt" _under folder "UCI HAR Dataset/train"_
