@@ -1,7 +1,7 @@
 | column | names                | class     | description                                                          |
 |--------|----------------------|-----------|----------------------------------------------------------------------|
 | 1      | activity             | character | walking;walkingupstairs;walkingdownstairs;sitting;standing;laying    |
-| 2      | subject              | integer   | Subject id numbers                                                   |
+| 2      | subject              | integer   | Subject id numbers from 1 to 30                                      |
 | 3      | tbodyaccmeanx        | numeric   | mean of body acceleration raw signals.time domain.x coordinate       |
 | 4      | tbodyaccmeany        | numeric   | mean of body acceleration raw signals.time domain.y coordinate       |
 | 5      | tbodyaccmeanz        | numeric   | mean of body acceleration raw signals.time domain.z coordinate       |

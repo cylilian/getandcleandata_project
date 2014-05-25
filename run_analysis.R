@@ -1,23 +1,30 @@
 
-path="C:/Users/yanyan/Documents/R/data/UCI HAR Dataset"
+path="C:/Users/yanyan/Documents/R/data"
 setwd(path)
+if (!file.exists("UCI HAR Dataset")) {
+    if (!file.exists("getdata_projectfiles_UCI HAR Dataset.zip")) {
+        stop("was expecting HAR Dataset folder or zip file")
+        } else {
+        unzip("getdata_projectfiles_UCI HAR Dataset.zip")
+        }
+}
 #### STEP1 #######Merge######################################################
-subject_train=read.table("./subject_train.txt")
-activity_train=read.table("./y_train.txt")
-subject_test=read.table("./subject_test.txt")
-activity_test=read.table("./y_test.txt")
+subject_train=read.table("./UCI HAR Dataset/train/subject_train.txt")
+activity_train=read.table("./UCI HAR Dataset/train/y_train.txt")
+subject_test=read.table("./UCI HAR Dataset/test/subject_test.txt")
+activity_test=read.table("./UCI HAR Dataset/test/y_test.txt")
 
 v_subject=rbind(subject_train,subject_test)
 v_activity=rbind(activity_train,activity_test)
 colnames(v_subject)="subject"
 colnames(v_activity)="activity"
 
-x_train=read.table("./X_train.txt")
-x_test=read.table("./X_test.txt")
+x_train=read.table("./UCI HAR Dataset/train/X_train.txt")
+x_test=read.table("./UCI HAR Dataset/test/X_test.txt")
 data0=rbind(x_train,x_test)
 
 #### STEP2 #######Subset#######################################################
-v_features=read.table("./features.txt")
+v_features=read.table("./UCI HAR Dataset/features.txt")
 colnames0=tolower(v_features[,2])
 v_select1=grep("std|mean",colnames0)
 data1=data0[,v_select1]
@@ -33,7 +40,7 @@ colnames3=colnames2[-v_select3]
 
 
 #### STEP3 ##########Replace####################################################
-activity_labels=read.table("./activity_labels.txt")
+activity_labels=read.table("./UCI HAR Dataset/activity_labels.txt")
 activity_labels=as.character(activity_labels[,2])
 activity_labels=tolower(activity_labels)
 activity_labels=sub("_","",activity_labels,)
@@ -56,23 +63,9 @@ data3=cbind(v_subject,v_activity,data3)
 ### STEP5 #######Tidy Dataset########################################
 require(reshape2)
 molten = melt(data3, id = c("subject", "activity"), na.rm = TRUE)
-mean1=dcast(molten, formula = subject+activity ~ variable,mean)
+tidy_data=dcast(molten, formula = subject+activity ~ variable,mean)
 
-colnames(mean1)=c("activity","subject",new_features)
+colnames(tidy_data)=c("activity","subject",new_features)
 destfile1="tidy_dataset.txt"
-write.table(mean1, file=destfile1, row.names=FALSE, col.names=FALSE, sep="\t",quote=FALSE)
-
-destfile2="tidy_dataset.csv"
-write.table(mean1, file=destfile2, row.names=FALSE, col.names=FALSE, sep=",",quote=FALSE)
-
+write.table(tidy_data, file=destfile1, row.names=FALSE, col.names=FALSE, sep="\t",quote=FALSE)
 test_data1=read.table(destfile1)
-test_data2=read.csv(destfile2,header=FALSE)
-
-listOfVariables <- data.frame(names(mean1))
-write.csv(listOfVariables,"listOfVariables.csv")
-
-df=read.csv("listOfVariables.csv")
-#now making .md file
-lines <- paste("<p> ",df$column,df$names, df$class, df$description," </p>")
-ocontents = c("<HTML><BODY>",lines,"</BODY></HTML")
-write.table(ocontents, file="CodeBook1.md", quote = FALSE, col.names=TRUE, row.names=TRUE)
