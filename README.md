@@ -3,7 +3,7 @@
 ##before step1
 This script assumes "UCI HAR Dataset" folder is under current working directory.
 
-This script ignores folders called "Inertial Signals".
+This script ignores folders called "UCI HAR Dataset/train/Inertial Signals" and "UCI HAR Dataset/test/Inertial Signals".
 
 This script assumes the data is in 8 files called 
 * "X_train.txt" _under folder "UCI HAR Dataset/train"_

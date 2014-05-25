@@ -1,7 +1,9 @@
+From Column 3 to Colum 68, variables are means for each subject and each activity
+
 | column | names                | class     | description                                                          |
 |--------|----------------------|-----------|----------------------------------------------------------------------|
-| 1      | activity             | character | walking;walkingupstairs;walkingdownstairs;sitting;standing;laying    |
-| 2      | subject              | integer   | Subject id numbers from 1 to 30                                      |
+| 1      | subject              | integer   | subject id numbers from 1 to 30                                      |
+| 2      | activity             | character | walking;walkingupstairs;walkingdownstairs;sitting;standing;laying    |
 | 3      | tbodyaccmeanx        | numeric   | mean of body acceleration raw signals.time domain.x coordinate       |
 | 4      | tbodyaccmeany        | numeric   | mean of body acceleration raw signals.time domain.y coordinate       |
 | 5      | tbodyaccmeanz        | numeric   | mean of body acceleration raw signals.time domain.z coordinate       |

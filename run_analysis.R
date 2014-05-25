@@ -65,7 +65,7 @@ require(reshape2)
 molten = melt(data3, id = c("subject", "activity"), na.rm = TRUE)
 tidy_data=dcast(molten, formula = subject+activity ~ variable,mean)
 
-colnames(tidy_data)=c("activity","subject",new_features)
+colnames(tidy_data)=c("subject","activity",new_features)
 destfile1="tidy_dataset.txt"
 write.table(tidy_data, file=destfile1, row.names=FALSE, col.names=FALSE, sep="\t",quote=FALSE)
 test_data1=read.table(destfile1)
